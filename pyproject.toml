@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "travellers"
+version = "0.1.0"
+description = "A Qt implementation of a settlers of catan like game"
+authors = ["Brian Logan <id@brianjlogan.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.7.5"
+pyside2 = "^5.14.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.13.0"
+pylint = "^2.4.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
