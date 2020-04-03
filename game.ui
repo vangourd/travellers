@@ -68,9 +68,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_01">
    <property name="geometry">
@@ -86,9 +83,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_02">
@@ -106,9 +100,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_03">
    <property name="geometry">
@@ -124,9 +115,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_04">
@@ -144,9 +132,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_06">
    <property name="geometry">
@@ -162,9 +147,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_05">
@@ -182,9 +164,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_07">
    <property name="geometry">
@@ -200,9 +179,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_09">
@@ -220,9 +196,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_11">
    <property name="geometry">
@@ -238,9 +211,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_08">
@@ -258,9 +228,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_10">
    <property name="geometry">
@@ -276,9 +243,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_12">
@@ -296,9 +260,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_14">
    <property name="geometry">
@@ -314,9 +275,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_19">
@@ -334,9 +292,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_15">
    <property name="geometry">
@@ -352,9 +307,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="tile_16">
@@ -372,9 +324,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_18">
    <property name="geometry">
@@ -391,9 +340,6 @@
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
-   </property>
   </widget>
   <widget class="QLabel" name="tile_17">
    <property name="geometry">
@@ -409,9 +355,6 @@
    </property>
    <property name="text">
     <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>img/tile.svg</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="startGameButton">
@@ -448,11 +391,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge08">
@@ -464,11 +410,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge01">
@@ -480,11 +429,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge13">
@@ -496,11 +448,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge12">
@@ -512,11 +467,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge02">
@@ -528,11 +486,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge25">
@@ -544,11 +505,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge42">
@@ -560,11 +524,14 @@
      <height>26</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge57">
@@ -576,11 +543,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge59">
@@ -592,11 +562,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge46">
@@ -608,11 +581,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge44">
@@ -624,11 +600,14 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge27">
@@ -640,11 +619,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge14">
@@ -656,11 +638,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge16">
@@ -672,11 +657,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge61">
@@ -688,11 +676,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge48">
@@ -704,11 +695,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge33">
@@ -720,11 +714,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge06">
@@ -736,11 +733,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge04">
@@ -752,11 +752,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge18">
@@ -768,11 +771,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge31">
@@ -784,11 +790,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge29">
@@ -800,11 +809,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge09">
@@ -816,11 +828,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge10">
@@ -832,11 +847,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge39">
@@ -848,11 +866,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge66">
@@ -864,11 +885,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge54">
@@ -880,11 +904,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge65">
@@ -896,11 +923,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge64">
@@ -912,11 +942,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge52">
@@ -928,11 +961,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge51">
@@ -944,11 +980,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge35">
@@ -960,14 +999,17 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
-  <widget class="QLabel" name="eddge36">
+  <widget class="QLabel" name="edge36">
    <property name="geometry">
     <rect>
      <x>306</x>
@@ -976,11 +1018,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge37">
@@ -992,11 +1037,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge38">
@@ -1008,11 +1056,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge22">
@@ -1024,11 +1075,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge21">
@@ -1040,11 +1094,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge20">
@@ -1056,11 +1113,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge53">
@@ -1072,11 +1132,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge19">
@@ -1088,11 +1151,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge34">
@@ -1104,11 +1170,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge50">
@@ -1120,11 +1189,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge63">
@@ -1136,11 +1208,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge41">
@@ -1152,11 +1227,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge56">
@@ -1168,11 +1246,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge68">
@@ -1184,11 +1265,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge70">
@@ -1200,11 +1284,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge58">
@@ -1216,11 +1303,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge43">
@@ -1232,11 +1322,14 @@
      <height>26</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge26">
@@ -1248,11 +1341,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge24">
@@ -1264,11 +1360,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge47">
@@ -1280,11 +1379,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge32">
@@ -1296,11 +1398,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge17">
@@ -1312,11 +1417,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge15">
@@ -1328,11 +1436,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge30">
@@ -1344,11 +1455,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge11">
@@ -1360,11 +1474,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge60">
@@ -1376,11 +1493,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge72">
@@ -1392,11 +1512,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge62">
@@ -1408,11 +1531,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge49">
@@ -1424,11 +1550,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge05">
@@ -1440,11 +1569,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge03">
@@ -1456,11 +1588,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge28">
@@ -1472,11 +1607,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge45">
@@ -1488,11 +1626,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_lr.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge40">
@@ -1504,11 +1645,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge67">
@@ -1520,11 +1664,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge55">
@@ -1536,11 +1683,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge69">
@@ -1552,11 +1702,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge71">
@@ -1568,11 +1721,14 @@
      <height>28</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_rl.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <widget class="QLabel" name="edge23">
@@ -1584,11 +1740,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
     <string/>
    </property>
-   <property name="pixmap">
-    <pixmap>img/edge_straight.svg</pixmap>
+   <property name="type" stdset="0">
+    <string>edge</string>
    </property>
   </widget>
   <zorder>board</zorder>
@@ -1644,7 +1803,7 @@
   <zorder>edge52</zorder>
   <zorder>edge51</zorder>
   <zorder>edge35</zorder>
-  <zorder>eddge36</zorder>
+  <zorder>edge36</zorder>
   <zorder>edge37</zorder>
   <zorder>edge38</zorder>
   <zorder>edge22</zorder>

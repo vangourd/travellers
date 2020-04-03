@@ -1,16 +1,71 @@
 import sys, random
-from PySide2.QtWidgets import QDialog, QApplication
+from PySide2.QtWidgets import QDialog, QApplication, QLabel
 from game import *
 
 class Board:
 
-    def __init__(self,places):
+    def __init__(self,uiTiles,uiEdges):
         self.tiles = []
-        self.generateTiles(places)
+        self.edges = []
+        self.setupTiles(uiTiles)
+        self.setupEdges(uiEdges)
     
-    def generateTiles(self,places):
+    def setupTiles(self,places):
         for place in places:
             self.tiles.append(Tile(place))
+
+    def setupEdges(self, uiEdges):
+        for uiEdge in uiEdges:
+            self.edges.append(Edge(uiEdge))
+
+class Edge:
+    color_opts = {
+        "green": {"rightToLeft":"img/edge_rl_green.svg","leftToRight":"img/edge_lr_green.svg","straight":"img/edge_straight_green.svg"},
+        "blue": {"rightToLeft":"img/edge_rl_blue.svg","leftToRight":"img/edge_lr_blue.svg","straight":"img/edge_straight_blue.svg"},
+        "yellow": {"rightToLeft":"img/edge_rl_yellow.svg","leftToRight":"img/edge_lr_yellow.svg","straight":"img/edge_straight_yellow.svg"},
+        "red": {"rightToLeft":"img/edge_rl_red.svg","leftToRight":"img/edge_lr_red.svg","straight":"img/edge_straight_red.svg"},
+    }
+
+    def __init__(self,ui):
+        self.ui = ui
+        self.type = None
+        self.determineType()
+        print(self.type)
+
+    def determineType(self):
+
+        def findLeftorRight(num):
+            if x % 2:
+                return "leftToRight"
+            else:
+                return "rightToLeft"
+
+        x = int(self.ui.objectName().strip("edge"))
+        if 1 < x <= 6:
+            self.type = findLeftorRight(x)
+        if 6 < x <= 10:
+            self.type = "straight"
+        if 11 < x <= 18:
+            self.type = findLeftorRight(x)
+        if 19 < x <= 23:
+            self.type = "straight"
+        if 23 < x <= 33:
+            self.type = findLeftorRight(x)
+        if 33 < x <= 39:
+            self.type = "straight"
+        if 39 < x <= 49:
+            self.type = findLeftorRight(x)
+        if 49 < x <= 54:
+            self.type = "straight"
+        if 54 < x <= 62:
+            self.type = findLeftorRight(x)
+        if 62 < x <= 66:
+            self.type = "straight"
+        if 66 < x <= 72:
+            self.type = findLeftorRight(x)
+
+    def setColor(self, color):
+        self.ui.setPixmap(QPixmap(self.color_opts[color][self.type]))
 
 class Tile:
     options = [
@@ -55,33 +110,19 @@ class MyForm(QDialog):
         self.ui = Ui_Form()
         self.ui.setupUi(self)
         self.gameStatus = "playing"
-        self.ui.places = [
-            self.ui.tile_01,
-            self.ui.tile_02,
-            self.ui.tile_03,
-            self.ui.tile_04,
-            self.ui.tile_05,
-            self.ui.tile_06,
-            self.ui.tile_07,
-            self.ui.tile_08,
-            self.ui.tile_09,
-            self.ui.tile_10,
-            self.ui.tile_11,
-            self.ui.tile_12,
-            self.ui.tile_13,
-            self.ui.tile_14,
-            self.ui.tile_15,
-            self.ui.tile_16,
-            self.ui.tile_17,
-            self.ui.tile_18,
-            self.ui.tile_19,
-        ]
+        self.uiEdges = []
+        self.uiTiles = []
+        for i in range(1,20):
+            self.uiTiles.append(self.findChild(QLabel,f"tile_{i:02d}"))
+        for i in range(1,73):
+            self.uiEdges.append(self.findChild(QLabel,f"edge{i:02d}"))
+
         self.ui.startGameButton.clicked.connect(self.new_game)
         self.show()
     
     def new_game(self):
         self.ui.startGameButton.setHidden(True)
-        self.board = Board(self.ui.places)
+        self.board = Board(self.uiTiles,self.uiEdges)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
