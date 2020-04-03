@@ -4,11 +4,13 @@ from game import *
 
 class Board:
 
-    def __init__(self,uiTiles,uiEdges):
+    def __init__(self,uiTiles,uiEdges,uiChits):
         self.tiles = []
         self.edges = []
+        self.chits = []
         self.setupTiles(uiTiles)
         self.setupEdges(uiEdges)
+        self.setupChits(uiChits)
     
     def setupTiles(self,places):
         for place in places:
@@ -17,6 +19,10 @@ class Board:
     def setupEdges(self, uiEdges):
         for uiEdge in uiEdges:
             self.edges.append(Edge(uiEdge))
+
+    def setupChits(self, uiChits):
+        for uiChit in uiChits:
+            self.chits.append(Chit(uiChit))
 
 class Edge:
     color_opts = {
@@ -30,7 +36,6 @@ class Edge:
         self.ui = ui
         self.type = None
         self.determineType()
-        print(self.type)
 
     def determineType(self):
 
@@ -103,6 +108,48 @@ class Tile:
         self.type = decision['name']
         self.ui.setPixmap(QPixmap(decision['path']))
 
+class Chit:
+    options = [
+        {"path":"img/chit02.svg","used":0},
+        {"path":"img/chit03.svg","used":0},
+        {"path":"img/chit04.svg","used":0},
+        {"path":"img/chit05.svg","used":0},
+        {"path":"img/chit06.svg","used":0},
+        {"path":"img/chit08.svg","used":0},
+        {"path":"img/chit09.svg","used":0},
+        {"path":"img/chit10.svg","used":0},
+        {"path":"img/chit11.svg","used":0},
+        {"path":"img/chit12.svg","used":0},
+        {"path":"img/robber.svg","used":0}
+    ]
+
+    def __init__(self,ui):
+        self.ui = ui
+        self.chitNo = None
+        if self.ui.objectName() == "chit10":
+            self.setRobber()
+        else:
+            self.differentiate()
+    
+    def differentiate(self):
+        num = random.randrange(10)
+        if num in [0,10]:
+            max = 1
+        else:
+            max = 2
+        if self.options[num]['used'] >= max:
+            self.differentiate()
+        else:
+            self.ui.setPixmap(QPixmap(self.options[num]['path']).scaled(30,30,Qt.KeepAspectRatio))
+            self.chitNo = num
+            self.options[num]['used'] += 1
+    
+    def setRobber(self):
+        self.ui.setPixmap(QPixmap(self.options[10]['path']).scaled(30,30,Qt.KeepAspectRatio))
+
+    def removeRobber(self):
+        self.ui.setPixmap(QPixmap(self.options[self.chitNo]['path'].scaled(30,30,Qt.KeepAspectRatio)))
+
 class MyForm(QDialog):
 
     def __init__(self):
@@ -112,17 +159,19 @@ class MyForm(QDialog):
         self.gameStatus = "playing"
         self.uiEdges = []
         self.uiTiles = []
+        self.uiChits = []
         for i in range(1,20):
             self.uiTiles.append(self.findChild(QLabel,f"tile_{i:02d}"))
         for i in range(1,73):
             self.uiEdges.append(self.findChild(QLabel,f"edge{i:02d}"))
-
+        for i in range(1,20):
+            self.uiChits.append(self.findChild(QLabel,f"chit{i:02d}"))
         self.ui.startGameButton.clicked.connect(self.new_game)
         self.show()
     
     def new_game(self):
         self.ui.startGameButton.setHidden(True)
-        self.board = Board(self.uiTiles,self.uiEdges)
+        self.board = Board(self.uiTiles,self.uiEdges,self.uiChits)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
