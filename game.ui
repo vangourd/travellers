@@ -415,10 +415,13 @@
    </property>
   </widget>
   <widget class="QPushButton" name="startGameButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
      <x>230</x>
-     <y>270</y>
+     <y>260</y>
      <width>271</width>
      <height>61</height>
     </rect>
@@ -429,7 +432,1258 @@
    <property name="text">
     <string>Start New Game</string>
    </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
   </widget>
+  <widget class="QLabel" name="edge07">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>87</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge08">
+   <property name="geometry">
+    <rect>
+     <x>305</x>
+     <y>88</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge01">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>52</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge13">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>144</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge12">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>144</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge02">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>53</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge25">
+   <property name="geometry">
+    <rect>
+     <x>154</x>
+     <y>235</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge42">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>330</y>
+     <width>43</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge57">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>417</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge59">
+   <property name="geometry">
+    <rect>
+     <x>368</x>
+     <y>420</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge46">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>330</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge44">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>326</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge27">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>236</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge14">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>144</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge16">
+   <property name="geometry">
+    <rect>
+     <x>417</x>
+     <y>145</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge61">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>418</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge48">
+   <property name="geometry">
+    <rect>
+     <x>521</x>
+     <y>327</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge33">
+   <property name="geometry">
+    <rect>
+     <x>575</x>
+     <y>235</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge06">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>53</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge04">
+   <property name="geometry">
+    <rect>
+     <x>362</x>
+     <y>51</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge18">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>145</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge31">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>236</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge29">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>236</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge09">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>90</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge10">
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>90</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge39">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>273</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge66">
+   <property name="geometry">
+    <rect>
+     <x>517</x>
+     <y>453</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge54">
+   <property name="geometry">
+    <rect>
+     <x>569</x>
+     <y>365</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge65">
+   <property name="geometry">
+    <rect>
+     <x>412</x>
+     <y>455</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge64">
+   <property name="geometry">
+    <rect>
+     <x>307</x>
+     <y>452</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge52">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>360</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge51">
+   <property name="geometry">
+    <rect>
+     <x>254</x>
+     <y>362</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge35">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>270</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="eddge36">
+   <property name="geometry">
+    <rect>
+     <x>306</x>
+     <y>270</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge37">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge38">
+   <property name="geometry">
+    <rect>
+     <x>515</x>
+     <y>270</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge22">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>180</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge21">
+   <property name="geometry">
+    <rect>
+     <x>358</x>
+     <y>180</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge20">
+   <property name="geometry">
+    <rect>
+     <x>253</x>
+     <y>180</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge53">
+   <property name="geometry">
+    <rect>
+     <x>463</x>
+     <y>362</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge19">
+   <property name="geometry">
+    <rect>
+     <x>147</x>
+     <y>180</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge34">
+   <property name="geometry">
+    <rect>
+     <x>96</x>
+     <y>270</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge50">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>363</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge63">
+   <property name="geometry">
+    <rect>
+     <x>201</x>
+     <y>452</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge41">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>327</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge56">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>420</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge68">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>510</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge70">
+   <property name="geometry">
+    <rect>
+     <x>367</x>
+     <y>511</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge58">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>420</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge43">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>330</y>
+     <width>42</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge26">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>237</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge24">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>237</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge47">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>330</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge32">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>235</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge17">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>145</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge15">
+   <property name="geometry">
+    <rect>
+     <x>366</x>
+     <y>144</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge30">
+   <property name="geometry">
+    <rect>
+     <x>418</x>
+     <y>236</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge11">
+   <property name="geometry">
+    <rect>
+     <x>154</x>
+     <y>147</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge60">
+   <property name="geometry">
+    <rect>
+     <x>418</x>
+     <y>420</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge72">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>510</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge62">
+   <property name="geometry">
+    <rect>
+     <x>524</x>
+     <y>422</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge49">
+   <property name="geometry">
+    <rect>
+     <x>576</x>
+     <y>328</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge05">
+   <property name="geometry">
+    <rect>
+     <x>416</x>
+     <y>52</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge03">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>53</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge28">
+   <property name="geometry">
+    <rect>
+     <x>315</x>
+     <y>235</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge45">
+   <property name="geometry">
+    <rect>
+     <x>364</x>
+     <y>329</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_lr.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge40">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>329</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge67">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>510</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge55">
+   <property name="geometry">
+    <rect>
+     <x>157</x>
+     <y>421</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge69">
+   <property name="geometry">
+    <rect>
+     <x>315</x>
+     <y>510</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge71">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>510</y>
+     <width>42</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_rl.svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="edge23">
+   <property name="geometry">
+    <rect>
+     <x>567</x>
+     <y>180</y>
+     <width>6</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/edge_straight.svg</pixmap>
+   </property>
+  </widget>
+  <zorder>board</zorder>
+  <zorder>tile_13</zorder>
+  <zorder>tile_01</zorder>
+  <zorder>tile_02</zorder>
+  <zorder>tile_03</zorder>
+  <zorder>tile_04</zorder>
+  <zorder>tile_06</zorder>
+  <zorder>tile_05</zorder>
+  <zorder>tile_07</zorder>
+  <zorder>tile_09</zorder>
+  <zorder>tile_11</zorder>
+  <zorder>tile_08</zorder>
+  <zorder>tile_10</zorder>
+  <zorder>tile_12</zorder>
+  <zorder>tile_14</zorder>
+  <zorder>tile_19</zorder>
+  <zorder>tile_15</zorder>
+  <zorder>tile_16</zorder>
+  <zorder>tile_18</zorder>
+  <zorder>tile_17</zorder>
+  <zorder>edge07</zorder>
+  <zorder>edge08</zorder>
+  <zorder>edge01</zorder>
+  <zorder>edge13</zorder>
+  <zorder>edge12</zorder>
+  <zorder>edge02</zorder>
+  <zorder>edge25</zorder>
+  <zorder>edge42</zorder>
+  <zorder>edge57</zorder>
+  <zorder>edge59</zorder>
+  <zorder>edge46</zorder>
+  <zorder>edge44</zorder>
+  <zorder>edge27</zorder>
+  <zorder>edge14</zorder>
+  <zorder>edge16</zorder>
+  <zorder>edge61</zorder>
+  <zorder>edge48</zorder>
+  <zorder>edge33</zorder>
+  <zorder>edge06</zorder>
+  <zorder>edge04</zorder>
+  <zorder>edge18</zorder>
+  <zorder>edge31</zorder>
+  <zorder>edge29</zorder>
+  <zorder>edge09</zorder>
+  <zorder>edge10</zorder>
+  <zorder>edge39</zorder>
+  <zorder>edge66</zorder>
+  <zorder>edge54</zorder>
+  <zorder>edge65</zorder>
+  <zorder>edge64</zorder>
+  <zorder>edge52</zorder>
+  <zorder>edge51</zorder>
+  <zorder>edge35</zorder>
+  <zorder>eddge36</zorder>
+  <zorder>edge37</zorder>
+  <zorder>edge38</zorder>
+  <zorder>edge22</zorder>
+  <zorder>edge21</zorder>
+  <zorder>edge20</zorder>
+  <zorder>edge53</zorder>
+  <zorder>edge19</zorder>
+  <zorder>edge34</zorder>
+  <zorder>edge50</zorder>
+  <zorder>edge63</zorder>
+  <zorder>edge41</zorder>
+  <zorder>edge56</zorder>
+  <zorder>edge68</zorder>
+  <zorder>edge70</zorder>
+  <zorder>edge58</zorder>
+  <zorder>edge43</zorder>
+  <zorder>edge26</zorder>
+  <zorder>edge24</zorder>
+  <zorder>edge47</zorder>
+  <zorder>edge32</zorder>
+  <zorder>edge17</zorder>
+  <zorder>edge15</zorder>
+  <zorder>edge30</zorder>
+  <zorder>edge11</zorder>
+  <zorder>edge60</zorder>
+  <zorder>edge72</zorder>
+  <zorder>edge62</zorder>
+  <zorder>edge49</zorder>
+  <zorder>edge05</zorder>
+  <zorder>edge03</zorder>
+  <zorder>edge28</zorder>
+  <zorder>edge45</zorder>
+  <zorder>edge40</zorder>
+  <zorder>edge67</zorder>
+  <zorder>edge55</zorder>
+  <zorder>edge69</zorder>
+  <zorder>edge71</zorder>
+  <zorder>edge23</zorder>
+  <zorder>startGameButton</zorder>
  </widget>
  <resources/>
  <connections/>
