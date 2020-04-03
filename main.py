@@ -8,12 +8,13 @@ class MyForm(QDialog):
         super().__init__()
         self.ui = Ui_Form()
         self.ui.setupUi(self)
-        self.ui.choices = [
-            "img/aura.svg",
-            "img/gas.svg",
-            "img/nova.svg",
-            "img/fire.svg",
-            "img/steel.svg",
+        self.ui.tileOptions = [
+            {"name":"aura","path":"img/aura.svg","used":0},
+            {"name":"gas","path":"img/gas.svg","used":0},
+            {"name":"nova","path":"img/nova.svg","used":0},
+            {"name":"fire","path":"img/fire.svg","used":0},
+            {"name":"steel","path":"img/steel.svg","used":0},
+            {"name":"asteroids","path":"img/asteroids.svg","used":0}
         ]
         self.ui.tiles = [
             self.ui.tile_01,
@@ -37,8 +38,14 @@ class MyForm(QDialog):
             self.ui.tile_19,
         ]
         for tile in self.ui.tiles:
+            if tile.objectName() == "tile_10":
+                tile.setPixmap(QPixmap(self.ui.tileOptions[5]['path']))
+                print(tile)
+                continue
             choice = random.randrange(5)
-            tile.setPixmap(QPixmap(self.ui.choices[choice]))
+            current_tile = self.ui.tileOptions[choice]
+            tile.setPixmap(QPixmap(current_tile['path']))
+            current_tile['used'] += 1
             
         self.show()
 
